@@ -151,7 +151,7 @@ def main():
 
     entorno = EntornoGrid()
     agente = Agent(state_shape=(3, GRID_HEIGHT, GRID_WIDTH), action_size=4)
-    agente.load("dqn_model.pth")
+    agente.load("DQN/dqn_model.pth")
 
     cursor_pos = [0, 0]
     modo_juego = "SETUP"

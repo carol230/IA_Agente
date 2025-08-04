@@ -148,7 +148,7 @@ def main():
 
     entorno = EntornoGrid()
     agente = Agent()
-    agente.load_genes("best_agent_genes.pth")
+    agente.load_genes("GENETICO/best_agent_genes.pth")
 
     cursor_pos = [0, 0]
     modo_juego = "SETUP"

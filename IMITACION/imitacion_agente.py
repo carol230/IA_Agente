@@ -148,7 +148,7 @@ def main():
 
     entorno = EntornoGrid()
     agente = Agent()
-    agente.load_model("imitacion_model.pth")
+    agente.load_model("IMITACION/imitacion_model.pth")
 
     cursor_pos = [0, 0]
     modo_juego = "SETUP"
